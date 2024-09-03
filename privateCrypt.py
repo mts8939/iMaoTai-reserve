@@ -40,8 +40,13 @@ def decrypt_aes_ecb(ciphertext, key):
     """
     ciphertext = base64.b64decode(ciphertext)
     cipher = AES.new(key, AES.MODE_ECB)
-    plain_str = unpad(cipher.decrypt(ciphertext), AES.block_size)
-    return plain_str.decode()
+    try:
+        plain_str = unpad(cipher.decrypt(ciphertext), AES.block_size)
+        return plain_str.decode()
+    except ValueError as e:
+        print("解密失败，原因：", e)
+        print("密文：", ciphertext)
+        print("块大小：", AES.block_size)
 
 
 '''
