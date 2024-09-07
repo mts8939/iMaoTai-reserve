@@ -1,28 +1,6 @@
 
 # i茅台预约工具----GitHub Actions版
 
-<p align="center">
-  <a href="https://hits.seeyoufarm.com">
-     <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F397179459%2FiMaoTai-reserve&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
-  </a>
-  <a href="https://github.com/397179459/iMaoTai-reserve">
-    <img src="https://img.shields.io/github/stars/397179459/iMaoTai-reserve" alt="GitHub Stars">
-  </a>
-  <a href="https://github.com/397179459/iMaoTai-reserve">
-    <img src="https://img.shields.io/github/forks/397179459/iMaoTai-reserve" alt="GitHub Forks">
-  </a>
-  <a href="https://github.com/397179459/iMaoTai-reserve/issues">
-    <img src="https://img.shields.io/github/issues-closed-raw/397179459/iMaoTai-reserve" alt="GitHub Closed Issues">
-  </a>
-  <a href="https://github.com/397179459/iMaoTai-reserve">
-    <img alt="GitHub commit activity (branch)" src="https://img.shields.io/github/commit-activity/y/397179459/iMaoTai-reserve">
-  </a>
-  <a href="https://github.com/397179459/iMaoTai-reserve">
-    <img src="https://img.shields.io/github/last-commit/397179459/iMaoTai-reserve" alt="GitHub Last Commit">
-  </a>
-</p>
-
-
 ### 功能：
 - [x] 集成Github Actions
 - [x] 多账号配置
